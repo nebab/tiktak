@@ -2,10 +2,87 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
     tools:context="com.example.code.tiktak.MainActivity">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/prvi_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <Button
+            android:id="@+id/prvi_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <Button
+            android:id="@+id/prvi_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/drugi_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <Button
+            android:id="@+id/drugi_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <Button
+            android:id="@+id/drugi_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/treci_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <Button
+            android:id="@+id/treci_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <Button
+            android:id="@+id/treci_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+    </LinearLayout>
+
+
 </LinearLayout>
+
+
 
 
